@@ -1,8 +1,8 @@
 from twilio.rest import Client
 import pandas
 
-client = Client('AC24286c0d33aa8692aba6aec95e068c1d',
-                'b56f2b5fb1cfcd661d2d32896b256cd1')
+client = Client('API_KEY',
+                'API_KEY')
 
 # Read data from excel
 excel_data = pandas.read_excel(
